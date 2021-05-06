@@ -1,4 +1,9 @@
 # REST API MongoDB local + MongoDB Compass version
+Run the demo:
+cd to the project
+npm install
+启动： DEBUG=project:* npm start
+
 
 ## MongoDB Compass
 
