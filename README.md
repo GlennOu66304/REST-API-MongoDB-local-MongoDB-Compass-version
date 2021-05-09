@@ -27,7 +27,11 @@ cd myapp
 npm install
 启动： DEBUG=myapp:* npm start
 ```
-
+If you do not want the"pug" file in the view file, then you can use the code below to generate a project:
+```
+express --no-view server
+```
+[8.1.1　初始化项目](https://weread.qq.com/web/reader/c7432440721c7eb2c74881fk398323202893988c7f885f0)  
 Pay more attention that between the \* and :, there is no spaceing
 [使用应用生成器](https://developer.mozilla.org/zh-CN/docs/learn/Server-side/Express_Nodejs/skeleton_website)
 
